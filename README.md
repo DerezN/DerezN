@@ -21,13 +21,16 @@ BS in Artificial Intelligence, Carroll University (class of 2029). I build open-
 
 ## Case studies (historical research — not original discoveries)
 
-- Case Study 01: ERC-4626 first-depositor / share-inflation attack — vulnerable vs. patched, with Foundry tests *(in progress)*
+- Case Study 01: ERC-4626 first-depositor / share-inflation attack — vulnerable vs. patched, Foundry tests **2/2 passing** (attack drains the vulnerable vault; fixed vault protects the victim). Write-up in final review.
 
 ## Platform profiles
 
+- CodeHawks / Cyfrin: https://profiles.cyfrin.io/u/derezn
 - HackerOne: https://hackerone.com/derezn
 - Bugcrowd: derezn (onboarding complete)
-- CodeHawks / Code4rena / Immunefi / Sherlock / Cantina: linked here once each profile is verified live
+- Cantina: DerezN (KYC approved, payout address set)
+- Immunefi: derezn (account active; identity verification in progress)
+- Portfolio site: https://derezn.github.io
 
 ## Contact
 
