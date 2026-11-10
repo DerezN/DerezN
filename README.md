@@ -1,37 +1,35 @@
-# Desmond Nguyen — @DerezN
+# Hi, I'm Desmond Nguyen — @DerezN
 
-Independent security researcher focused on **blockchain protocols, smart contracts, and AI-assisted vulnerability discovery**.
+I'm a sophomore at Carroll University studying Artificial Intelligence (class of 2029). Most of my free time goes to security research — I look for bugs in blockchain and smart contract code, and I build AI tools that help me look.
 
-BS in Artificial Intelligence, Carroll University (class of 2029). I build open-source security tooling, reproduce historical vulnerabilities in local labs, and compete in public audit competitions. Everything here is reproducible — if a claim appears on this profile, the code, test, or public platform record behind it is linked.
+Everything I claim here links to code, a test, or a public profile, so you can check it yourself.
 
-## Research interests
+## What I spend my time on
 
-- Inherited vulnerabilities in forked / cloned crypto codebases
-- Smart-contract accounting and invariant failures (ERC-4626, token supply, bridges)
-- AI-assisted triage with human-verified findings — hypotheses are labeled as hypotheses until tested
-- Local, reproducible security labs (Foundry, property / invariant testing)
+- Crypto projects that copy each other's code — and the bugs that get copied along with it
+- Smart contract mistakes in things like accounting and token math (ERC-4626 vaults are the one I've studied most)
+- Using AI to help find places a bug might be hiding, then checking every idea by hand before I believe it
+- Small test labs I can run over and over to show a bug is real
 
-## Portfolio
+## My projects
 
-| Project | What it is | Status |
-|---|---|---|
-| crypto-fork-analyzer | Detects inherited code between crypto repos and flags known security fixes a fork may be missing | MVP — see repo |
-| smart-contract-security-lab | Foundry lab reproducing historical vulnerability classes with vulnerable vs. fixed contracts and tests | Lab v1 — see repo |
-| ai-security-framework | Local-first pipeline: repo ingestion → code indexing → structured hypotheses → human-verified findings | Architecture + core v1 — see repo |
+- **crypto-fork-analyzer** — compares crypto projects that copied each other's code and points out security fixes the copy might have missed. Written in Python, with tests.
+- **smart-contract-security-lab** — a practice lab. I rebuild old, known smart contract bugs, then write the fixed version and test both. The first one (an ERC-4626 vault bug) is done and the tests pass.
+- **ai-security-framework** — a tool I'm building that runs on my own computer. It reads a codebase and helps me come up with places to look for bugs. I still check everything myself before I call it a finding.
 
-## AI & software projects
+## Other projects
 
-From my Artificial Intelligence degree work and personal builds — code for these three is being prepared for publication here:
+Stuff from my AI degree and projects I built on my own. I'm still cleaning up the code for these three before I post it here.
 
-- **Pokémon Card Scanner** — computer-vision pipeline (Python): identifies a trading card from a photo, fetches its data via API, and writes structured results to Excel. Built for messy inputs — glare, angles, sleeves, worn cards — with uncertain identifications flagged rather than passed along as confident answers.
-- **Fleetway** — route-optimization device (Python, Raspberry Pi) with a touchscreen UI, built around physical-hardware constraints.
-- **Local AI Workflow Toolkit** — local model workflows with Ollama (Python): running models on my own hardware to learn the setup, performance, and privacy trade-offs versus cloud APIs.
+- **Pokémon Card Scanner** — point a camera at a Pokémon card and it works out which card it is, then puts the card's info into a spreadsheet. Real cards are messy — glare, weird angles, plastic sleeves — so I made it say "not sure" instead of guessing wrong.
+- **Fleetway** — a route planner I built on a Raspberry Pi with a little touchscreen. The first thing I ever built for real hardware instead of just a screen.
+- **Local AI Workflow Toolkit** — I set up AI models (Ollama) to run on my own computer instead of the cloud, mostly to learn what they're good at and what they're bad at.
 
-## Case studies (historical research — not original discoveries)
+## Write-ups
 
-- Case Study 01: ERC-4626 first-depositor / share-inflation attack — vulnerable vs. patched, Foundry tests **2/2 passing** (attack drains the vulnerable vault; fixed vault protects the victim). Write-up in final review.
+- Case Study 01 — I rebuilt a known attack on ERC-4626 vaults (the "first depositor" one) in my lab to learn how it works. It's an old, public bug, not one I found — the vulnerable version fails the test and the fixed version passes (2/2). My write-up is almost done.
 
-## Platform profiles
+## Me on other sites
 
 - CodeHawks / Cyfrin: https://profiles.cyfrin.io/u/derezn
 - HackerOne: https://hackerone.com/derezn
@@ -42,7 +40,7 @@ From my Artificial Intelligence degree work and personal builds — code for the
 
 ## Contact
 
-- Research inquiries: desmond.v.nguyen@gmail.com
+- Email: desmond.v.nguyen@gmail.com
 - LinkedIn: https://www.linkedin.com/in/desmond-nguyen-537532281/
 
-*No paid audit services are offered yet. This profile lists only work that can be independently checked.*
+*I don't do paid audits yet. This page only lists work you can check.*
