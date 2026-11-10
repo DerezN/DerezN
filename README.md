@@ -25,6 +25,10 @@ Stuff from my AI degree and projects I built on my own. I'm still cleaning up th
 - **Fleetway** — a route planner I built on a Raspberry Pi with a little touchscreen. The first thing I ever built for real hardware instead of just a screen.
 - **Local AI Workflow Toolkit** — I set up AI models (Ollama) to run on my own computer instead of the cloud, mostly to learn what they're good at and what they're bad at.
 
+## Work
+
+- **CINTAS — summer internship (2026).** I worked at their Rental Center of Excellence. The team had a record update they did over and over by hand in Excel and SAP, so I automated it — a bunch of steps turned into one copy-and-paste. If a record couldn't be updated safely, it got skipped and written down instead of forced through and turned into a bad record. The code belongs to CINTAS, so it's not posted anywhere — this is just me describing what I did.
+
 ## Write-ups
 
 - Case Study 01 — I rebuilt a known attack on ERC-4626 vaults (the "first depositor" one) in my lab to learn how it works. It's an old, public bug, not one I found — the vulnerable version fails the test and the fixed version passes (2/2). My write-up is almost done.
