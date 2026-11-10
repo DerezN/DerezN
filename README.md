@@ -28,7 +28,7 @@ Stuff from my AI degree and projects I built on my own. I'm still cleaning up th
 ## Work
 
 - **CINTAS — summer internship (2026).** I worked at their Rental Center of Excellence. The team had a record update they did over and over by hand in Excel and SAP, so I automated it — a bunch of steps turned into one copy-and-paste. If a record couldn't be updated safely, it got skipped and written down instead of forced through and turned into a bad record. The code belongs to CINTAS, so it's not posted anywhere — this is just me describing what I did.
-- **Gem Card Lab — my small business.** People mail me damaged Pokémon cards, I clean and fix them, and send them back. If I can't fix a card, I don't charge for it. I sell cards too, and I've set up a table at local card shows. You can see it at https://gemcardlab.com
+- **Gem Card Lab — my small business.** People mail me damaged Pokémon cards, I clean and fix them, and send them back. If I can't fix a card, I don't charge for it. I sell cards too, and I've set up a table at local card shows. You can see it at https://gemcardlab.com or on Instagram at https://www.instagram.com/gemcardlab
 
 ## Write-ups
 
